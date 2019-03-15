@@ -8,7 +8,7 @@ excerpt: ''
 mathjax: true
 ---
 
-**데이터 정규화**
+**데이터 정규화**  
 데이터 전처리를 이해하는데 있어 중요한 기능중 하나로, 데이터의 범위를 일치시키거나 분포를 유사하게 만들어주는 기능.
 
 <img src='/images/data-normalization1.png'>
@@ -20,10 +20,10 @@ income의 feature가 결과값에 더 큰 영향을 준다.
 이것을 방지하기위해, 우리는 데이터의 범위를 0~1의 범위로 변환시켜 데이터 정규화를 진행할 수 있다.
 
 
-<img src='{{ "/images/data-normalization2.png"}}'>
+<img src='/images/data-normalization2.png'>
 
 데이터 정규화의 방법에는 위와같이 세 가지 방법으로 진행해볼 수 있다.
-python 적용 예시 :
-<img src='{{ "/images/data-normalization3.png"}}'>
-<img src='{{ "/images/data-normalization4.png"}}'>
-<img src='{{ "/images/data-normalization5.png"}}'>
+python 적용 예시 :  
+<img src='/images/data-normalization3.png'>
+<img src='/images/data-normalization4.png'>
+<img src='/images/data-normalization5.png'>
