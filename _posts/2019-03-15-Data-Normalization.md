@@ -18,12 +18,11 @@ mathjax: true
 income의 feature가 결과값에 더 큰 영향을 준다.  
 
 그러나 값의 range가 더 크다고하여 income이 실제로 더 중요한 예측변수라고 보기는 어렵다.  
-이것을 방지하기위해, 우리는 데이터의 범위를 0~1의 범위로 변환시켜 데이터 정규화를 진행할 수 있다.  
-
-
+이것을 방지하기위해, 우리는 아래와같이 세 가지 방법을 통해 
+데이터의 범위를 0~1의 범위로 변환시켜 데이터 정규화를 진행할 수 있다.  
 <img src='/images/data-normalization2.png' width = "600">  
-데이터 정규화의 방법에는 위와같이 세 가지 방법으로 진행해볼 수 있다. 
-<br>
+
+
 python 적용 예시 :    
 <img src='/images/data-normalization3.png' width = "600">
 <img src='/images/data-normalization4.png' width = "600">
