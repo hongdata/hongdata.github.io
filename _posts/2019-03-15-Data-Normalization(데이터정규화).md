@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "데이터 정규화"
+categories: Theory
+published : True
+tags: #이론 #통계학 #빅데이터
+excerpt: false
+mathjax: true
+---
+
 <p>데이터 정규화</p>
 <p>데이터 전처리를 이해하는데 있어 중요한 기능중 하나로, 데이터의 범위를 일치시키거나 분포를 유사하게 만들어주는 기능.</p>
 <p style="text-align: left; clear: none; float: none;">[##_1N|cfile27.uf@99F20E395C87BE441CBF73.png|width="700" height="394" filename="data-normalization1.png" filemime="image/jpeg" style="width: 700px; height: 394px;"|_##]</p>
