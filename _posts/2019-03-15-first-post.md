@@ -2,8 +2,9 @@
 layout: post
 title:  "example first post"
 categories: Python
-tags: jekyll
-excerpt: 当年创建 jekyll 时默认的一篇文章，没什么意义，我也一直没删除，留个纪念吧。
+published : false
+tags: #jekyll
+excerpt: 제목부분
 mathjax: true
 ---
 
