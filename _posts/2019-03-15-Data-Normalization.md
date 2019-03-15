@@ -11,7 +11,7 @@ mathjax: true
 **데이터 정규화**
 데이터 전처리를 이해하는데 있어 중요한 기능중 하나로, 데이터의 범위를 일치시키거나 분포를 유사하게 만들어주는 기능.
 
-<img src='{{ "/images/data-normalization1.png"}}'>
+<img src='/images/data-normalization1.png'>
 위의 그림에서 보았을 때, Age와 income의 featrue를 비교하는 어려운데, 
 이 값을 그대로 적용할 경우 선형회귀분석의 경우에는 본질적으로 income의 값의 범위가 훨씬 크기때문에 
 income의 feature가 결과값에 더 큰 영향을 준다.
