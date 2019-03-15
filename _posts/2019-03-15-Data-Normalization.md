@@ -23,6 +23,8 @@ income의 feature가 결과값에 더 큰 영향을 준다.
 <img src='/images/data-normalization2.png' width = "600">  
 
 
+<br>
+<br>
 python 적용 예시 :    
 <img src='/images/data-normalization3.png' width = "600">
 <img src='/images/data-normalization4.png' width = "600">
