@@ -9,12 +9,12 @@ type: page
 * content
 {:toc}
 
-## 공유하고싶은 사이트
+<!-- ## 공유하고싶은 사이트 -->
 ### 캐글
 * [캐글](http://kaggle.com)
 * [캐글코리아 Facebook](https://www.facebook.com/groups/KaggleKoreaOpenGroup/)
 
 
-## Comments
+<!-- ## Comments -->
 
-{% include comments.html %}
+<!-- {% include comments.html %} -->
