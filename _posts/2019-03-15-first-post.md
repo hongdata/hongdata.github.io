@@ -4,7 +4,7 @@ title:  "example first post"
 categories: Python
 published : True
 tags: #jekyll
-excerpt: 제목부분
+excerpt: 
 mathjax: true
 ---
 
