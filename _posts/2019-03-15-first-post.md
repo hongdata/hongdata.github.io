@@ -2,7 +2,7 @@
 layout: post
 title:  "example first post"
 categories: Python
-published : True
+published : False
 tags: #jekyll
 excerpt: ''
 mathjax: true
