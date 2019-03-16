@@ -11,7 +11,7 @@ mathjax: true
 
 ## 모델 평가
 예측을위한 feature와 알고리즘 등을 정리하여 Machine Learning 모델을 만들었다면,  
-것이 제대로 만들어진 것인지, 어느정도 예측력을 발휘할지 확인을 해봐야 합니다. 
+이 모델이 제대로 만들어진 것인지, 어느정도 예측력을 발휘할지 확인을 해봐야 합니다. 
 
 
 ## scikit-learn train_test_split
