@@ -30,7 +30,7 @@ mathjax: true
 ( y = 2x 인것을 x = 2y 로 표현하면 안된다는 겁니다. )  
 <br>
 <br>
-### 회귀분석식과 그래프로의 
+### 회귀분석식과 그래프로의 표현
 <img src ="/images/regression-1.jpg" width = '600'>  
 intercept는 절편 이라고 이야기하는데요, x가 0일때 y의 값을 입니다.  
 그리고 그 뒤의 slope, b_1x로 기울기가 결정됩니다.  
