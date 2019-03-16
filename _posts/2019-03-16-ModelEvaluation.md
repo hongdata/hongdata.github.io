@@ -14,7 +14,7 @@ mathjax: true
 이 모델이 제대로 만들어진 것인지, 어느정도 예측력을 발휘할지 확인을 해봐야 합니다. 
 
 
-## scikit-learn train_test_split
+## train_test_split
 우리가 가진 데이터가 100개 라고 가정한다면,  
 70개의 데이터를 사용해서 모델을 만들어보고  
 나머지 30개의 데이터는 결과값을 모의 예측하는데 사용하는겁니다.  
@@ -93,4 +93,5 @@ Prevalence: 전체 데이터 중 Yes의 값이 얼마나 많이 일어났는가
 actual yes/total = 105/165 = 0.64  
 
 파이썬으로 plot 생성하는 방법은 아래 링크 참고하세요.  
-https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
+https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html  
+<img src = "/images/modelevaluation-3.png" width="600">  
