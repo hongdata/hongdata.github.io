@@ -2,7 +2,7 @@
 layout: post
 title:  "Data Evaluation (모델평가)"
 categories: Theory
-published : False
+published : True
 tags: 이론 통계학 빅데이터 모델평가
 excerpt: ''
 mathjax: true
@@ -47,7 +47,7 @@ K-fold 교차검증방법을 이용해 5회 fold를 만들어 진행하는 경�
 71~80 : 검증데이터, 그 외 훈련데이터 -> 4회 훈련  
 81~100 : 검증데이터, 그 외 훈련데이터 -> 5회 훈련 처럼 여러차례 검증해보는 방식입니다.  
 
-<img src= "/images/modelevaluation-1.jpg" width="600">  
+<img src= "/images/modelevaluation.jpg" width="600">  
 <이미지 출처 : https://www.dummies.com/programming/big-data/data-science/resorting-cross-validation-machine-learning/>  
 
 교차검증의 경우, 연산이 몇 배로 늘어난다는 단점이 있지만  
@@ -62,10 +62,10 @@ K-fold 교차검증방법을 이용해 5회 fold를 만들어 진행하는 경�
 ## Confusion matrix (오분류표)  
 
 <img src = "/images/modelevaluation-2.png" width="600">  
-<이미지 출처 : https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/>  
+<이미지 출처 : https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/>   
 Confusion matrix 또한 모델 평가방법에서 꼭 거쳐봐야할 방법 중 하나입니다.  
 
-오분류표의 개념에는 다음과 같은 것들이 있습니다.
+오분류표의 개념에는 다음과 같은 것들이 있습니다.  
 true positives (TP): Yes로 예상했고 실제 값 또한 Yes로 제대로 분류한 경우.  
 true negatives (TN): No로 예상했고 실제 값 또한 No로 제대로 분류한 경우.  
 false positives (FP): Positive로 예상했지만 실제 값이 No로 오분류한 경우. (1종오류)  
