@@ -34,12 +34,12 @@ mathjax: true
 <br>
 <br>
 ### 회귀분석식
-<img src ="/images/regression-1.jpg" width = 600>
+<img src ="/images/regression-1.jpg" width = '600'>
 intercept는 절편 이라고 이야기하는데요, x가 0일때 y의 값을 입니다.  
 그리고 그 뒤의 slope, b_1x로 기울기가 결정됩니다.  
 "x가 0일때, y가 38423이며 x가 1씩 증가할 수록 y가 821씩 감소한다." 를 그래프를 그리면 아래와 같이 그래프를 그릴 수 있습니다.  
-<img src ="/images/regression-3.jpg" width = 600>
+<img src ='/images/regression-3.jpg' width = '600'>
 
 
 이걸 다중회귀분석식으로 그래프를 그려보면 아래와 같이 표현할 수 있습니다.
-<img src ="/images/regression-2.jpg" width = 600>
+<img src ="/images/regression-2.jpg" width = '600'>
