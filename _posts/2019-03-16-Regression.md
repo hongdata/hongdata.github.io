@@ -30,15 +30,15 @@ mathjax: true
 ( y = 2x 인것을 x = 2y 로 표현하면 안된다는 겁니다. )  
 <br>
 <br>
-### 회귀분석식
+### 회귀분석식과 그래프로의 
 <img src ="/images/regression-1.jpg" width = '600'>  
 intercept는 절편 이라고 이야기하는데요, x가 0일때 y의 값을 입니다.  
 그리고 그 뒤의 slope, b_1x로 기울기가 결정됩니다.  
-  
-  
+<br>
+<br>
 "x가 0일때, y가 38423이며 x가 1씩 증가할 수록 y가 821씩 감소한다." 를 그래프를 그리면 아래와 같이 그래프를 그릴 수 있습니다.  
 <img src ='/images/regression-3.jpg' width = '600'>  
-  
-  
+<br>
+<br>
 다중 회귀분석도 같은 개념으로 이해하시면 되고 아래 그래프를 보면 쉽게 이해되실거라 생각합니다.  
 <img src ="/images/regression-2.jpg" width = '600'>
