@@ -20,7 +20,7 @@ mathjax: true
 나머지 30개의 데이터는 결과값을 모의 예측하는데 사용하는겁니다.  
 scikit-learn에서는 train_test_split이라는 함수를 제공하여 아래와 같이 간단하게 나눌 수 있습니다.
 
-```Ruby
+```
 from sklearn.model_selection import train_test_split
 
 train_data, test_data, train_label, test_label = train_test_split(X_train_data, X_train_label, test_size = 0.3, random_state=0)
@@ -31,7 +31,7 @@ X_train_label : 종속변수
 test_size : test data의 비율 (0.3이라면 30%를 의미하며 default 값은 0.25입니다.)  
 random_state : random seed 번호  
 
-train_data , test_data : training set 
+train_data , test_data : training set  
 train_label , test_label : testing set  
 
 
@@ -91,3 +91,6 @@ TP/predicted yes = 100/110 = 0.91
 
 Prevalence: 전체 데이터 중 Yes의 값이 얼마나 많이 일어났는가  
 actual yes/total = 105/165 = 0.64  
+
+파이썬으로 plot 생성하는 방법은 아래 링크 참고하세요.  
+https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
