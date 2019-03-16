@@ -3,7 +3,7 @@ layout: post
 title:  "Regression (회귀분석)"
 categories: Theory
 published : True
-tags: 이론 통계학 빅데이터 
+tags: 이론 통계학 빅데이터 회귀분석
 excerpt: ''
 mathjax: true
 ---
