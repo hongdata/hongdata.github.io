@@ -19,7 +19,7 @@ mathjax: true
 ### 회귀분석이란 ?
 회귀분석을 한마디로 정의하자면 "x가 한단위 변화할 때 y의 값" 으로 y = 2x 정도로 이해하시면 느낌이 쉽게 오실겁니다.  
   
-회귀분석에는 단순회귀분석(Linear Regression)과 다중회귀분석이(Multiple Regression) 있는데요.  
+회귀분석은 대표적으로 단순회귀분석(Linear Regression)과 다중회귀분석(Multiple Regression)으로 나눠 볼 수 있습니다.
 단순회귀분석을 독립변수가 하나인 것이고  
 다중회귀분석은 독립변수가 두 개 이상인 것입니다.  
   
