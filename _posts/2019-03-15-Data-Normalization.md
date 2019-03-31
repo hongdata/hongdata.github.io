@@ -16,12 +16,11 @@ mathjax: true
 스케일링은 분포에는 변경이 없지만, 데이터의 범위를 일치시켜주는 기능을 합니다.  
   
 **정규화**  
-정규화는 데이터에 log를 사용하거나, box-cox transformation을 이용하여 분포를 바꿔줍니다.
-#  
-#  
-#  
-#   
-**스케일링**
+정규화는 데이터에 log를 사용하거나, box-cox transformation을 이용하여 분포를 바꿔줍니다.  
+#
+#
+#
+**스케일링**  
 <img src='/images/data-normalization1.png' width = "600" >  
 위의 그림에서 보았을 때, Age와 income의 featrue를 비교하는 어려운데,  
 이 값을 그대로 적용할 경우 선형회귀분석의 경우에는 본질적으로 income의 값의 범위가 훨씬 크기때문에  
