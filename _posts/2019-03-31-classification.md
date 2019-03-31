@@ -18,7 +18,11 @@ Regression 모델이 Continuous Data를 예측한다면
 Classification 모델은 Categorical Data를 예측(분류)합니다.  
   
 Classification은 Clustering과 비슷한데   
-이 둘의 차이는 label의 유/무입니다. 
+이 둘의 차이는 label의 유/무입니다.  
+
+Classification은 label이 2가지인경우, 3가지 이상인 경우에 따라  
+2가지인경우 Binary Classification  
+3가지 이상인 경우 Multi Class Classification으로 구분됩니다.  
 
 Classification에는 다음과 같은 기법들이 있습니다.
 - decision trees
