@@ -21,11 +21,14 @@ mathjax: true
 나머지 30개의 데이터는 결과값을 모의 예측하는데 사용하는겁니다.  
 scikit-learn에서는 train_test_split이라는 함수를 제공하여 아래와 같이 간단하게 나눌 수 있습니다.
 
-``` 
+
+{% highlight ruby %}
 from sklearn.model_selection import train_test_split
 
 train_data, test_data, train_label, test_label = train_test_split(X_train_data, X_train_label, test_size = 0.3, random_state=0)
-```
+{% endhighlight %}
+
+
 
 X_train_data : 독립변수  
 X_train_label : 종속변수  
@@ -59,7 +62,7 @@ K-fold 교차검증방법을 이용해 5회 fold를 만들어 진행하는 경�
 (우연찮게 예측하기 쉬운 데이터들이과 그렇지 않은 데이터들로 나누어졌다거나..)  
 높거나 낮은 예측률을 발휘하는 등의 상황을 예방할 수 있습니다.  
 
-```
+{% highlight Ruby %}
 >>> from sklearn.model_selection import KFold
 
 >>> X = np.array([[1, 2], [3, 4], [1, 2], [3, 4]])
@@ -78,5 +81,5 @@ KFold(n_splits=2, random_state=None, shuffle=False)
 ...    y_train, y_test = y[train_index], y[test_index]
 TRAIN: [2 3] TEST: [0 1]
 TRAIN: [0 1] TEST: [2 3]
-```
+{% endhighlight %}
 <scikit learn 홈페이지 : https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html>
