@@ -18,17 +18,7 @@ mathjax: true
 Classification에는 일반적으로 아래와 같이 3가지 채점방식을 사용하며, 각각 알아보겠습니다.  
 
 
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
-
-## Jaccard Index
+1. ## Jaccard Index
 <img src = "/images/evaluation-jaccard.jpg" width="600">  
   
 간단하게 이야기하자면 정답률 입니다.  
@@ -36,9 +26,14 @@ end
 0~1의 값으로 1에 가까울수록 좋은 모델입니다.  
 
 
+1. ## Log-loss
+<img src = "/images/evaluation-logloss.jpg" width="600">  
 
+Logarithmic loss이라고 합니다.  
+예측값의 확률을 가지고 오차를 계산합니다.  
+0~1의 값으로 0에 가까울수록 좋은 모델입니다.  
 
-## Confusion matrix  
+1. ## Confusion matrix  
 
 <img src = "/images/modelevaluation-2.png" width="600">  
 <이미지 출처 : https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/>   
