@@ -14,18 +14,27 @@ mathjax: true
 분류방법이 Classification이냐, Regression이냐 에 따라 평가방식이 다른데요.  
 일단 이번시간에는 Classification인 경우로 알아보겠습니다. 
 
-Classification에는 일반적으로 아래와 같이 3가지 채점방식을 사용하며, 각각 알아보겠습니다.
-1.Confusion Matrix와 F1-Scoring
-2.Log-loss
-3.Jaccard Index
+Classification에는 일반적으로 아래와 같이 3가지 채점방식을 사용하며, 각각 알아보겠습니다.  
+1. [Jaccard Index]()  
+1. [Log-loss]()  
+1. [Confusion Matrix와 F1-Scoring]()  
 
-## Confusion matrix (오분류표)  
+## Jaccard Index
+<img src = "/images/evaluation-jaccard.jpg" width="600">  
+  
+간단하게 이야기하자면 정답률 입니다.  
+정답갯수 / X레이블갯수 + Y레이블갯수 - 정답갯수 
+0~1의 값으로 1에 가까울수록 좋은 모델입니다.  
+
+
+
+
+## Confusion matrix  
 
 <img src = "/images/modelevaluation-2.png" width="600">  
 <이미지 출처 : https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/>   
-Confusion matrix 또한 모델 평가방법에서 꼭 거쳐봐야할 방법 중 하나입니다.  
 
-오분류표의 개념에는 다음과 같은 것들이 있습니다.  
+Confusion Matrix, 오분류표라고 합니다.  
 true positives (TP): Yes로 예상했고 실제 값 또한 Yes로 제대로 분류한 경우.  
 true negatives (TN): No로 예상했고 실제 값 또한 No로 제대로 분류한 경우.  
 false positives (FP): Positive로 예상했지만 실제 값이 No로 오분류한 경우. (1종오류)  
