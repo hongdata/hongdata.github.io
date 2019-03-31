@@ -1,0 +1,37 @@
+
+## Confusion matrix (오분류표)  
+
+<img src = "/images/modelevaluation-2.png" width="600">  
+<이미지 출처 : https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/>   
+Confusion matrix 또한 모델 평가방법에서 꼭 거쳐봐야할 방법 중 하나입니다.  
+
+오분류표의 개념에는 다음과 같은 것들이 있습니다.  
+true positives (TP): Yes로 예상했고 실제 값 또한 Yes로 제대로 분류한 경우.  
+true negatives (TN): No로 예상했고 실제 값 또한 No로 제대로 분류한 경우.  
+false positives (FP): Positive로 예상했지만 실제 값이 No로 오분류한 경우. (1종오류)  
+false negatives (FN): No로 예상했지만 실제 값이 Yes로 오분류한 경우. (2종오류)  
+
+Accuracy : 정분류율
+(TP+TN)/total = (100+50)/165 = 0.91  
+
+Misclassification Rate : 오분류율
+(FP+FN)/total = (10+5)/165 = 0.09  (= 1-Accuray)  
+
+True Positive Rate ("Sensitivity" or "Recall") : 실제 Yes인 값들 중 Yes로 예측한 비율 (민감도 혹은 재현률)  
+TP/actual yes = 100/105 = 0.95  
+
+False Positive Rate: 실제로 No인 값들을 Yes로 예상한 비율  
+FP/actual no = 10/60 = 0.17  
+
+True Negative Rate ("Specificity") : 실제로 No인 값들 중 No로 예측한 비율 (특이도)  
+TN/actual no = 50/60 = 0.83 (=1-False positie rate)  
+
+Precision: Yes로 예측한 값들 중 실제로 Yes인 비율 (정밀도)  
+TP/predicted yes = 100/110 = 0.91  
+
+Prevalence: 전체 데이터 중 Yes의 값이 얼마나 많이 일어났는가  
+actual yes/total = 105/165 = 0.64  
+
+파이썬으로 plot 생성하는 방법은 아래 링크 참고하세요.  
+https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html  
+<img src = "/images/modelevaluation-3.png" width="600">  
