@@ -71,7 +71,3 @@ TP/predicted yes = 100/110 = 0.91
 
 Prevalence: 전체 데이터 중 Yes의 값이 얼마나 많이 일어났는가  
 actual yes/total = 105/165 = 0.64  
-
-파이썬으로 plot 생성하는 방법은 아래 링크 참고하세요.  
-https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html  
-<img src = "/images/modelevaluation-3.png" width="600">  
