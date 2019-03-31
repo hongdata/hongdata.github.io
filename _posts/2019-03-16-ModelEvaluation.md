@@ -14,7 +14,7 @@ mathjax: true
 이 모델이 제대로 만들어진 것인지, 어느정도 예측력을 발휘할지 확인을 해봐야 합니다.  
 이번 포스팅에서는 모델을 평가하기 위한 훈련 방식에대해 살펴보겠습니다.  
 [train_test_split](#train_test_split)  
-[K-fold cross validation](#K---fold-cross-validation)  
+[K-fold cross validation](#K-fold-cross-validation)  
 
 
 ## train_test_split
