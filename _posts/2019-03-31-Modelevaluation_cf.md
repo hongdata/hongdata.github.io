@@ -10,14 +10,23 @@ mathjax: true
 
 안녕하세요.  
 이전 포스팅에서 모델평가를 위한 훈련방식을 알아봤다면,  
-이번 방식에는 모델평가를 위한 채점방식, 즉 이 모델이 얼마나 예측률을 가지는지를 점수로써 환산하는 방법을 알아보겠습니다.  
+이번 방식에는 모델평가를 위한 채점방식,  
+즉 이 모델이 얼마나 예측률을 가지는지를 점수로써 환산하는 방법을 알아보겠습니다.  
 분류방법이 Classification이냐, Regression이냐 에 따라 평가방식이 다른데요.  
 일단 이번시간에는 Classification인 경우로 알아보겠습니다. 
 
 Classification에는 일반적으로 아래와 같이 3가지 채점방식을 사용하며, 각각 알아보겠습니다.  
-1. [Jaccard Index]()  
-1. [Log-loss]()  
-1. [Confusion Matrix와 F1-Scoring]()  
+
+
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
 
 ## Jaccard Index
 <img src = "/images/evaluation-jaccard.jpg" width="600">  
