@@ -11,7 +11,7 @@ mathjax: true
 
 # Classification   
   
-<img src='/images/classb.gif' width = "600" >  
+<img src='/images/classb.gif' width = "300" >  
 
 Classification은 같은 대상끼리 그룹짓는 것을 이야기합니다.  
 Regression 모델이 Continuous Data를 예측한다면  
