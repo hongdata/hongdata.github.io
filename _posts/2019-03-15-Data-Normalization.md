@@ -18,7 +18,6 @@ mathjax: true
 **정규화**  
 정규화는 데이터에 log를 사용하거나, box-cox transformation을 이용하여 분포를 바꿔줍니다.  
 <img src='/images/distribution.png' width = "600" >  
-<img src='/images/distribution.jpg' width = "600" >  
 <br>
 <br>
 <br>
