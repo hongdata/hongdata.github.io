@@ -18,7 +18,7 @@ mathjax: true
 Classification에는 일반적으로 아래와 같이 3가지 채점방식을 사용하며, 각각 알아보겠습니다.  
 
 
-1. ## Jaccard Index
+## 1.Jaccard Index
 <img src = "/images/evaluation-jaccard.jpg" width="600">  
   
 간단하게 이야기하자면 정답률 입니다.  
@@ -26,19 +26,26 @@ Classification에는 일반적으로 아래와 같이 3가지 채점방식을 �
 0~1의 값으로 1에 가까울수록 좋은 모델입니다.  
 
 
-1. ## Log-loss
+## 2.Log-loss
 <img src = "/images/evaluation-logloss.jpg" width="600">  
 
 Logarithmic loss이라고 합니다.  
 예측값의 확률을 가지고 오차를 계산합니다.  
 0~1의 값으로 0에 가까울수록 좋은 모델입니다.  
 
-1. ## Confusion matrix  
+## 3.Confusion matrix  
+<img src = "/images/evaluation-confusion.jpg" width="600">  
+Confusion Matrix, 오분류표라고 합니다. 
+여기서는 값의 비중이 너무 치우쳐지는 것을 방지하기 위하여 F1-Score(정확도와 정밀도의 평균)를 사용하고,  
+0~1의 값으로 1에 가까울수록 좋은 모데델입니다. 
 
+
+
+* confusion matrix 개념정리
 <img src = "/images/modelevaluation-2.png" width="600">  
 <이미지 출처 : https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/>   
 
-Confusion Matrix, 오분류표라고 합니다.  
+ 
 true positives (TP): Yes로 예상했고 실제 값 또한 Yes로 제대로 분류한 경우.  
 true negatives (TN): No로 예상했고 실제 값 또한 No로 제대로 분류한 경우.  
 false positives (FP): Positive로 예상했지만 실제 값이 No로 오분류한 경우. (1종오류)  
