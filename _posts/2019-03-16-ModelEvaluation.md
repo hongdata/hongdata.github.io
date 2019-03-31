@@ -23,7 +23,7 @@ mathjax: true
 나머지 30개의 데이터는 결과값을 모의 예측하는데 사용하는겁니다.  
 scikit-learn에서는 train_test_split이라는 함수를 제공하여 아래와 같이 간단하게 나눌 수 있습니다.
 
-``` Ruby
+``` 
 from sklearn.model_selection import train_test_split
 
 train_data, test_data, train_label, test_label = train_test_split(X_train_data, X_train_label, test_size = 0.3, random_state=0)
