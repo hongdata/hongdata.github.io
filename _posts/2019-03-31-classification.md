@@ -11,9 +11,9 @@ mathjax: true
 
 # Classification   
   
-<classb.gif>  
-  
-Classification은 같은 대상끼리 그룹짓는것을 이야기합니다.  
+<img src='/images/classb.gif' width = "600" >  
+
+Classification은 같은 대상끼리 그룹짓는 것을 이야기합니다.  
 Regression 모델이 Continuous Data를 예측한다면  
 Classification 모델은 Categorical Data를 예측(분류)합니다.  
   
