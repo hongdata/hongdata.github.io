@@ -38,9 +38,9 @@ Logarithmic loss이라고 합니다.
 Confusion Matrix, 오분류표라고 합니다. 
 여기서는 값의 비중이 너무 치우쳐지는 것을 방지하기 위하여 F1-Score(정확도와 정밀도의 평균)를 사용하고,  
 0~1의 값으로 1에 가까울수록 좋은 모델입니다. 
-#  
-#  
-#  
+ 
+  
+  
 * confusion matrix 개념정리
 <img src = "/images/modelevaluation-2.png" width="600">  
 <이미지 출처 : https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/>   
